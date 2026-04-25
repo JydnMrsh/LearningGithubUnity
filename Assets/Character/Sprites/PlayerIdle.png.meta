@@ -117,7 +117,7 @@ TextureImporter:
       213: 21300074
     second: Unity_MC_render_idle_37
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -134,11 +134,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -147,7 +148,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -161,7 +162,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -177,8 +178,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -188,9 +191,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -200,9 +204,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -212,13 +217,14 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Unity_MC_render_idle_0
+      name: PlayerIdle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -226,20 +232,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb63f30536c824e5b80d5ad208219808
-      internalID: 21300000
+      spriteID: 28078445e9c07f74a9815ae345686f61
+      internalID: -826362238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_1
+      name: PlayerIdle_1
       rect:
         serializedVersion: 2
         x: 128
@@ -247,20 +254,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bca41dadbd4e48d4b962bd6405c428b
-      internalID: 21300002
+      spriteID: e23b62e201656d248b01ab1934f6e28e
+      internalID: 1598138621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_2
+      name: PlayerIdle_2
       rect:
         serializedVersion: 2
         x: 256
@@ -268,20 +276,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 976a5e5df8f6d4544b0823d3a424e0b3
-      internalID: 21300004
+      spriteID: 41ec8dcad8d66784580a6e40729a2a83
+      internalID: 1936161047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_3
+      name: PlayerIdle_3
       rect:
         serializedVersion: 2
         x: 384
@@ -289,20 +298,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3288a173cd2243ba9100631c510defa
-      internalID: 21300006
+      spriteID: a8d91fb0c5d0cea4d80061b265f9e390
+      internalID: 618626073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_4
+      name: PlayerIdle_4
       rect:
         serializedVersion: 2
         x: 512
@@ -310,20 +320,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8012e8f2939ba46fc8378adbac48ffa0
-      internalID: 21300008
+      spriteID: b803381aa8d5a8b40b62201a16ee3f50
+      internalID: -294892452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_5
+      name: PlayerIdle_5
       rect:
         serializedVersion: 2
         x: 640
@@ -331,20 +342,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31536f03f3fa44f44a5cce968e4faef6
-      internalID: 21300010
+      spriteID: ff6025bc5bf115f45855d48421f2037d
+      internalID: 854062237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_6
+      name: PlayerIdle_6
       rect:
         serializedVersion: 2
         x: 768
@@ -352,20 +364,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e87866ef58c9467eabeaadd9f172498
-      internalID: 21300012
+      spriteID: 38b60c47c149b884986365f67c3c2ca9
+      internalID: -1604183111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_7
+      name: PlayerIdle_7
       rect:
         serializedVersion: 2
         x: 0
@@ -373,20 +386,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4596c3566bd54803a57d7ca1ed1a30c
-      internalID: 21300014
+      spriteID: c0d77361ad0e93a4fa40c4592e92f2ce
+      internalID: 1934888911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_8
+      name: PlayerIdle_8
       rect:
         serializedVersion: 2
         x: 128
@@ -394,20 +408,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4666df5cbad34881ab514d7bc44bf8f
-      internalID: 21300016
+      spriteID: 686c9503a8717954baef0b205d5d6db9
+      internalID: -216531194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_9
+      name: PlayerIdle_9
       rect:
         serializedVersion: 2
         x: 256
@@ -415,20 +430,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08485a536f86647a99ef3e7e30083668
-      internalID: 21300018
+      spriteID: 8550e62ab4058a14eb8b3e6bea227afc
+      internalID: 1811865787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_10
+      name: PlayerIdle_10
       rect:
         serializedVersion: 2
         x: 384
@@ -436,20 +452,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bab8b10b323d46b3a7e9b2df85d4163
-      internalID: 21300020
+      spriteID: 5ae27dd72da20d24fadd399b33ee4401
+      internalID: 361651819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_11
+      name: PlayerIdle_11
       rect:
         serializedVersion: 2
         x: 512
@@ -457,20 +474,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fe1822f10464429593ed9eccdebf191
-      internalID: 21300022
+      spriteID: 8a8540c93ac4de446bf2bf66ee56c660
+      internalID: 550304299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_12
+      name: PlayerIdle_12
       rect:
         serializedVersion: 2
         x: 640
@@ -478,20 +496,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ae31a4d2fb8245cc8de439b64063dfc
-      internalID: 21300024
+      spriteID: f0a1fd9082d84d64d963e9f5f3540888
+      internalID: 1412871925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_13
+      name: PlayerIdle_13
       rect:
         serializedVersion: 2
         x: 768
@@ -499,20 +518,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bff065404a91e4929869abf818af751d
-      internalID: 21300026
+      spriteID: cbc21bffdc52a3645a286707b9dcc9b8
+      internalID: 1710909651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_14
+      name: PlayerIdle_14
       rect:
         serializedVersion: 2
         x: 0
@@ -520,20 +540,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c772510232624b339ce7ec40b19bdc8
-      internalID: 21300028
+      spriteID: 3f4f976920925b64e825b25b7b858c1a
+      internalID: -447908252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_15
+      name: PlayerIdle_15
       rect:
         serializedVersion: 2
         x: 128
@@ -541,20 +562,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6b3fe70cdb5846af941c19b979f43e7
-      internalID: 21300030
+      spriteID: 6f9bc35f76eeb4a46b5ccb9c1ae8ee13
+      internalID: -147553290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_16
+      name: PlayerIdle_16
       rect:
         serializedVersion: 2
         x: 256
@@ -562,20 +584,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d35b47ea2f812447aa99e0dcde1e674d
-      internalID: 21300032
+      spriteID: 6b19d62c6d179594e8f7d800059a290e
+      internalID: 990283742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_17
+      name: PlayerIdle_17
       rect:
         serializedVersion: 2
         x: 384
@@ -583,20 +606,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7756de5797521429295d351a561e518a
-      internalID: 21300034
+      spriteID: f713bd53921a1314e9417a7684efd262
+      internalID: 491993428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_18
+      name: PlayerIdle_18
       rect:
         serializedVersion: 2
         x: 512
@@ -604,20 +628,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc503220c80ab45188d5cf2445e79fb4
-      internalID: 21300036
+      spriteID: b6dba5b8615cc2645a6a9e241632fb11
+      internalID: -681958687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_19
+      name: PlayerIdle_19
       rect:
         serializedVersion: 2
         x: 640
@@ -625,20 +650,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d4d6ffee60e54a55873356a4ddd99e8
-      internalID: 21300038
+      spriteID: 347e64536e7152e4ca1a3bc5f044bc9c
+      internalID: -1927221726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_20
+      name: PlayerIdle_20
       rect:
         serializedVersion: 2
         x: 768
@@ -646,20 +672,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6312069257f864c5990cfc7fbbfef8cf
-      internalID: 21300040
+      spriteID: 8b29780104c11fa4e8cf2f4448914619
+      internalID: -97768518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_21
+      name: PlayerIdle_21
       rect:
         serializedVersion: 2
         x: 0
@@ -667,20 +694,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d145d2675ddab4335961b490522f4523
-      internalID: 21300042
+      spriteID: cc24b2587b4e2004584b4ca226c77b8b
+      internalID: -1373472640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_22
+      name: PlayerIdle_22
       rect:
         serializedVersion: 2
         x: 128
@@ -688,20 +716,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb249c78ca3f5415b9c5aa38ea580ea8
-      internalID: 21300044
+      spriteID: 1fa5887435768d846a586abeb50b9d5b
+      internalID: 741827755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_23
+      name: PlayerIdle_23
       rect:
         serializedVersion: 2
         x: 256
@@ -709,20 +738,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 471ae53082571474d85eeb21df722fd5
-      internalID: 21300046
+      spriteID: 774c26cdd38c3f74683ed5fc35c46db6
+      internalID: -27440629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_24
+      name: PlayerIdle_24
       rect:
         serializedVersion: 2
         x: 384
@@ -730,20 +760,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfc645c8155014ebe8fe03f757240315
-      internalID: 21300048
+      spriteID: d56fc1c34dc61c647b00aaa18ea2af45
+      internalID: -1561911346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_25
+      name: PlayerIdle_25
       rect:
         serializedVersion: 2
         x: 512
@@ -751,20 +782,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99d5300aa30484b7e857873555835bb1
-      internalID: 21300050
+      spriteID: 05a0e0fdbf3240a43bdbd32caeb51922
+      internalID: 1647597254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_26
+      name: PlayerIdle_26
       rect:
         serializedVersion: 2
         x: 640
@@ -772,20 +804,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5137597506da40a38ef8998efdf7179
-      internalID: 21300052
+      spriteID: 71015b0d27a3f244ca54dff7f56780dc
+      internalID: 1673333194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_27
+      name: PlayerIdle_27
       rect:
         serializedVersion: 2
         x: 768
@@ -793,20 +826,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c75f91af1ceaf4b1eb0af4b9345e71f7
-      internalID: 21300054
+      spriteID: ae7cdcad5c5ffe44a983016a6add9aea
+      internalID: -1727103669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_28
+      name: PlayerIdle_28
       rect:
         serializedVersion: 2
         x: 0
@@ -814,20 +848,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3466b2945db64e46a5966a60f6cfeae
-      internalID: 21300056
+      spriteID: 7662ac7c8ee6dc34cba8d6e8983232e7
+      internalID: -1953621626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_29
+      name: PlayerIdle_29
       rect:
         serializedVersion: 2
         x: 128
@@ -835,20 +870,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 886d072ea7d3a4348b68a6140fd242c0
-      internalID: 21300058
+      spriteID: 6d813de21eedb8f4da1087361f3f6984
+      internalID: 2090368631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_30
+      name: PlayerIdle_30
       rect:
         serializedVersion: 2
         x: 256
@@ -856,20 +892,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3b9a1c2f12474e4a9fd850eaf048942
-      internalID: 21300060
+      spriteID: d3f8d145fcae8c046abbf3c143d2d1bd
+      internalID: -508817748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_31
+      name: PlayerIdle_31
       rect:
         serializedVersion: 2
         x: 384
@@ -877,20 +914,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d582248e8445e41a48f641272ba7ce66
-      internalID: 21300062
+      spriteID: 0ade952ab3c948e4587aca0cc1359b3d
+      internalID: -1293574258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_32
+      name: PlayerIdle_32
       rect:
         serializedVersion: 2
         x: 512
@@ -898,20 +936,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c7eb1401a3114bf09d890d362f84ef7
-      internalID: 21300064
+      spriteID: 809700aa1a169824aa57118abb312f04
+      internalID: -458085976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_33
+      name: PlayerIdle_33
       rect:
         serializedVersion: 2
         x: 640
@@ -919,20 +958,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd19b197bd0cf45efb0181a0503e0f48
-      internalID: 21300066
+      spriteID: 3805e5999bb8f464d8da7ebd98e34416
+      internalID: -426352378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_34
+      name: PlayerIdle_34
       rect:
         serializedVersion: 2
         x: 768
@@ -940,20 +980,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7842466541b554c7b81ae8e2a5f24ed2
-      internalID: 21300068
+      spriteID: 44d9b69997c0ed64dbb104e3305d9f36
+      internalID: -1071892601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_35
+      name: PlayerIdle_35
       rect:
         serializedVersion: 2
         x: 0
@@ -961,20 +1002,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b01b9eaaa46394308a8e6d27888e193c
-      internalID: 21300070
+      spriteID: 1770ebb38e7532a4d900fc8f11758cba
+      internalID: -773409715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_36
+      name: PlayerIdle_36
       rect:
         serializedVersion: 2
         x: 128
@@ -982,20 +1024,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c959b394c50844d27a35d19b95647d6b
-      internalID: 21300072
+      spriteID: 02e2584f69c18594d8d183d7cc1eaee5
+      internalID: 1334662107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Unity_MC_render_idle_37
+      name: PlayerIdle_37
       rect:
         serializedVersion: 2
         x: 256
@@ -1003,19 +1046,21 @@ TextureImporter:
         width: 128
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebdb5426d3ee3478eaba1e411bfcb591
-      internalID: 21300074
+      spriteID: 49218dcb3f769d944ae1a563ce2f8947
+      internalID: 1764686863
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 12e81d173ffc34fa18c0643c0d0b03ff
@@ -1025,48 +1070,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":126.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Unity_MC_render_idle_8: 21300016
-      Unity_MC_render_idle_19: 21300038
-      Unity_MC_render_idle_22: 21300044
-      Unity_MC_render_idle_29: 21300058
-      Unity_MC_render_idle_32: 21300064
-      Unity_MC_render_idle_28: 21300056
-      Unity_MC_render_idle_30: 21300060
-      Unity_MC_render_idle_15: 21300030
-      Unity_MC_render_idle_21: 21300042
-      Unity_MC_render_idle_2: 21300004
-      Unity_MC_render_idle_34: 21300068
-      Unity_MC_render_idle_16: 21300032
-      Unity_MC_render_idle_23: 21300046
-      Unity_MC_render_idle_11: 21300022
-      Unity_MC_render_idle_20: 21300040
-      Unity_MC_render_idle_26: 21300052
-      Unity_MC_render_idle_35: 21300070
-      Unity_MC_render_idle_9: 21300018
-      Unity_MC_render_idle_10: 21300020
-      Unity_MC_render_idle_33: 21300066
-      Unity_MC_render_idle_12: 21300024
-      Unity_MC_render_idle_3: 21300006
-      Unity_MC_render_idle_18: 21300036
-      Unity_MC_render_idle_5: 21300010
-      Unity_MC_render_idle_6: 21300012
-      Unity_MC_render_idle_31: 21300062
-      Unity_MC_render_idle_27: 21300054
-      Unity_MC_render_idle_25: 21300050
-      Unity_MC_render_idle_36: 21300072
-      Unity_MC_render_idle_17: 21300034
-      Unity_MC_render_idle_4: 21300008
-      Unity_MC_render_idle_1: 21300002
-      Unity_MC_render_idle_0: 21300000
-      Unity_MC_render_idle_7: 21300014
-      Unity_MC_render_idle_14: 21300028
-      Unity_MC_render_idle_13: 21300026
-      Unity_MC_render_idle_24: 21300048
-      Unity_MC_render_idle_37: 21300074
-  spritePackingTag: 
+      PlayerIdle_0: -826362238
+      PlayerIdle_1: 1598138621
+      PlayerIdle_10: 361651819
+      PlayerIdle_11: 550304299
+      PlayerIdle_12: 1412871925
+      PlayerIdle_13: 1710909651
+      PlayerIdle_14: -447908252
+      PlayerIdle_15: -147553290
+      PlayerIdle_16: 990283742
+      PlayerIdle_17: 491993428
+      PlayerIdle_18: -681958687
+      PlayerIdle_19: -1927221726
+      PlayerIdle_2: 1936161047
+      PlayerIdle_20: -97768518
+      PlayerIdle_21: -1373472640
+      PlayerIdle_22: 741827755
+      PlayerIdle_23: -27440629
+      PlayerIdle_24: -1561911346
+      PlayerIdle_25: 1647597254
+      PlayerIdle_26: 1673333194
+      PlayerIdle_27: -1727103669
+      PlayerIdle_28: -1953621626
+      PlayerIdle_29: 2090368631
+      PlayerIdle_3: 618626073
+      PlayerIdle_30: -508817748
+      PlayerIdle_31: -1293574258
+      PlayerIdle_32: -458085976
+      PlayerIdle_33: -426352378
+      PlayerIdle_34: -1071892601
+      PlayerIdle_35: -773409715
+      PlayerIdle_36: 1334662107
+      PlayerIdle_37: 1764686863
+      PlayerIdle_4: -294892452
+      PlayerIdle_5: 854062237
+      PlayerIdle_6: -1604183111
+      PlayerIdle_7: 1934888911
+      PlayerIdle_8: -216531194
+      PlayerIdle_9: 1811865787
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
