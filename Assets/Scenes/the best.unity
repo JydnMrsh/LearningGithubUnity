@@ -447,8 +447,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FlickerLightTest
   lightSource: {fileID: 0}
   minIntensity: 0.5
-  maxIntensity: 1.5
-  flickerSpeed: 0.1
+  maxIntensity: 15
+  flickerSpeed: 0.001
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
